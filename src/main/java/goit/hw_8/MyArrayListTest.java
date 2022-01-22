@@ -1,4 +1,4 @@
-package goit.hw_8.my_array_list;
+package goit.hw_8;
 
 import java.util.ArrayList;
 
