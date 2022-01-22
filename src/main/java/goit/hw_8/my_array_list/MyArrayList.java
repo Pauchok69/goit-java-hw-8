@@ -12,13 +12,11 @@ public class MyArrayList<T> {
         array = new Object[INIT_SIZE];
     }
 
-    public boolean add(T value) {
+    public void add(T value) {
         resizeArrayIfNeed();
 
         array[index] = value;
         index++;
-
-        return true;
     }
 
     private void resizeArrayIfNeed() {
