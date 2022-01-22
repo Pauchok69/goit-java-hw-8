@@ -30,6 +30,7 @@ public class MyArrayList<T> {
         }
     }
 
+    @SuppressWarnings("unchecked") // add this annotation to fix warning "Unchecked cast"
     public T get(int index) {
         return (T) array[index];
     }
