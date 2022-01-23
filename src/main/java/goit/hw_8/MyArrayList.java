@@ -2,7 +2,7 @@ package goit.hw_8;
 
 import java.util.StringJoiner;
 
-public class MyArrayList<T> {
+public class MyArrayList<T> implements MyArrayListInterface<T> {
     private static final int INIT_SIZE = 8;
 
     private Object[] array;
