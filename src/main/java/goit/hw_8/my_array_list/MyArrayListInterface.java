@@ -1,4 +1,4 @@
-package goit.hw_8;
+package goit.hw_8.my_array_list;
 
 public interface MyArrayListInterface<T> {
     void add(T value);
