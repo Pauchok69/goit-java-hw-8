@@ -37,6 +37,7 @@ public class MyLinkedListTests {
         System.out.println("myLinkedList.get(96) = " + myLinkedList.get(96));
 
         System.out.println("Clear");
+        System.out.println("myLinkedList.size() = " + myLinkedList.size());
         myLinkedList.clear();
         System.out.println("myLinkedList.size() = " + myLinkedList.size());
     }
