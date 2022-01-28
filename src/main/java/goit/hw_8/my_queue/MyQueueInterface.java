@@ -1,6 +1,6 @@
 package goit.hw_8.my_queue;
 
-public interface MyQueue<T> {
+public interface MyQueueInterface<T> {
 
     void add(T value);
 
